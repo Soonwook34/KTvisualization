@@ -11,17 +11,34 @@ let init = () => {
     targetConcept = 0;
     targetModel = "GKT";
 
+    boxPlot = new BoxPlot("#box-svg", data);
+    boxPlot.init();
+
     radarChart = new RadarChart("#radar-svg", data);
     radarChart.init();
+
+    heatmap = new Heatmap("#heatmap-svg", data);
+    heatmap.init();
+
     updateAll();
+};
+
+let updateBoxPlot = () => {
+    boxPlot.update(targetUser);
 };
 
 let updateRadarChart = () => {
     radarChart.update(targetUser, targetExer, targetModel);
 };
 
+let updateHeatmap = () => {
+
+};
+
 let updateAll = () => {
+    updateBoxPlot();
     updateRadarChart();
+    updateHeatmap();
 };
 
 d3.json("https://raw.githubusercontent.com/Soonwook34/KTvisualization/main/data/naive_c5_q50_s4000_v0.json")
