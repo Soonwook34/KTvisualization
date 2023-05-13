@@ -7,7 +7,7 @@ let targetUser, targetExer, targetConcept, targetModel;
 
 let init = () => {
     targetUser = 0;
-    targetExer = exerNum - 1;
+    targetExer = 0;
     targetConcept = 0;
     targetModel = "GKT";
 
@@ -24,15 +24,15 @@ let init = () => {
 };
 
 let updateBoxPlot = () => {
-    boxPlot.update(targetUser);
+    boxPlot.update(targetUser, targetConcept);
 };
 
 let updateRadarChart = () => {
-    radarChart.update(targetUser, targetExer, targetModel);
+    radarChart.update(targetUser, targetExer, targetConcept, targetModel);
 };
 
 let updateHeatmap = () => {
-
+    heatmap.update(targetUser, targetExer, targetConcept, targetModel);
 };
 
 let updateAll = () => {
@@ -64,6 +64,7 @@ d3.json("https://raw.githubusercontent.com/Soonwook34/KTvisualization/main/data/
         });
         // 학생 ID 선택 버튼 이벤트
         d3.select("#user-id-btn").on("click", (e) => {
+            e.preventDefault();
             targetUser = userIdSelect.options[userIdSelect.selectedIndex].innerHTML - 1;
             console.log(targetUser);
             updateAll();
@@ -80,9 +81,28 @@ d3.json("https://raw.githubusercontent.com/Soonwook34/KTvisualization/main/data/
         });
         // KT model 선택 메뉴 추가
         d3.select("#model-btn").on("click", (e) => {
+            e.preventDefault();
             targetModel = modelSelect.options[modelSelect.selectedIndex].innerHTML
             console.log(targetModel);
             updateAll();
             // TODO:
+        });
+        
+        heatmap.container.selectAll("rect.btn").on("click", (e) => {
+            e.preventDefault();
+            targetExer = e.target.__data__["exer"];
+            updateAll();
+        });
+
+        heatmap.container.selectAll("rect.btn").on("mouseover", (e) => {
+            e.preventDefault();
+            targetConcept = e.target.__data__["concept"].substr(1);
+            updateAll();
+        });
+
+        heatmap.container.selectAll("rect.btn").on("mouseout", (e) => {
+            e.preventDefault();
+            targetConcept = -1;
+            updateAll();
         });
     });

@@ -1,15 +1,31 @@
-/* body {
-    background: #eee;
-    overflow-y: scroll;
+body {
+    font-family: 'Poppins', 'Open Sans', sans-serif;
 }
 
-.container {
-    width: 1200px;
-    background: white;
+text {
+    font-family: 'Poppins', 'Open Sans', sans-serif;
 }
 
-.brushed {
-    stroke-width: 1;
-    stroke: gray;
-    r: 5;
-} */
+svg {
+    overflow: visible;
+}
+
+polygon {
+    fill: white;
+    fill-opacity: 0.0;
+}
+
+#heatmap-div {
+    overflow: auto;
+}
+
+#heatmap-svg rect.btn {
+    transition: 0.1s;
+}
+#heatmap-svg rect.btn:hover {
+    stroke-width: 5;
+}
+
+#heatmap-svg rect.btn:not(:hover) {
+    stroke-width: 0;
+}
