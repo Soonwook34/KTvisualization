@@ -51,7 +51,7 @@ d3.json("https://raw.githubusercontent.com/Soonwook34/KTvisualization/main/data/
         conceptNum = data["average_exer"][0]["state_GKT"].length;
         models = ["DKT", "GKT"];
 
-        console.log(data);
+        // console.log(data);
         init();
 
         // 학생 ID 선택 메뉴 추가
