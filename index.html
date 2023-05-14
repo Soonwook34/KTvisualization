@@ -3,18 +3,20 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        
         <script src="https://d3js.org/d3.v7.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js" integrity="sha512-wNH6xsp2n8CfB91nrBtfc4sfLwYPBMjSWVUwQOp60AYYXH6i8yCwuKFZ4rgK2i6pQek/b+bSyR7b01/922IBzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
         
         <link href="src/styles.css" rel="stylesheet">
-        <title>[2022710531 Soonwook Park] KT Vis</title>
+        <title>KT Visualization</title>
     </head>
     <body>
         <main class="container my-5 py-3 shadow-lg rounded" style="max-width:1000px;">
@@ -69,9 +71,13 @@
                         <p class="text-center fs-5 fw-semibold py-3 mb-1" id="knowledge-state-p">Knowledge State</p>
                     </div>
                     <div class="row">
-                        <div class="p-1 pb-4">
+                        <div class="p-1 pb-1">
                             <svg class="p-0" width="100%" height="100%" id="radar-svg"></svg>
                         </div>
+                    </div>
+                    <div class="form-check form-switch form-check-reverse mb-2">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">Move on to Next Exercise Automatically</label>
+                            <input class="form-check-input" id="auto-switch" type="checkbox" role="switch" id="flexSwitchCheckDefault">
                     </div>
                 </div>
             </div>
@@ -80,12 +86,21 @@
                     <div class="row pt-1 m-2">
                         <div class="p-2" id="heatmap-div">
                             <svg class="p-0" width="100%" height="20em" id="heatmap-svg"></svg>
+                            <div class="tooltip bs-tooltip-top show" id="heatmap-tooltip" role="tooltip" style="display:none">
+                                <div class="tooltip-arrow"></div>
+                                <div class="tooltip-inner">
+                                    Some tooltip text!
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
                         <p class="text-center fs-5 fw-semibold pt-1 pb-3 my-1">Exercise History</p>
                     </div>
                 </div>
+            </div>
+            <div class="row">
+                <p class="my-0 text-center fs-6 fw-light">Made by Soonwook Park @ SKKU InfoVis Project</p>
             </div>
         </main>
         <script src="src/main.js"></script>

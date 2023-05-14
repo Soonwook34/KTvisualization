@@ -15,6 +15,20 @@ polygon {
     fill-opacity: 0.0;
 }
 
+#box-svg rect.axis.target {
+    fill-opacity: 1.0;
+}
+#box-svg rect.axis:not(.target) {
+    fill-opacity: 0.0;
+}
+
+#radar-svg rect.axis.target {
+    fill-opacity: 1.0;
+}
+#radar-svg rect.axis:not(.target) {
+    fill-opacity: 0.0;
+}
+
 #heatmap-div {
     overflow: auto;
 }
@@ -25,7 +39,28 @@ polygon {
 #heatmap-svg rect.btn:hover {
     stroke-width: 5;
 }
-
 #heatmap-svg rect.btn:not(:hover) {
     stroke-width: 0;
+}
+
+#heatmap-svg text.x-axis {
+    transition-delay: 150ms;
+}
+#heatmap-svg text.x-axis.target {
+    fill: white;
+}
+#heatmap-svg text.x-axis:not(.target) {
+    fill: black;
+}
+
+#heatmap-svg rect.y-axis.target {
+    fill-opacity: 1.0;
+}
+#heatmap-svg rect.y-axis:not(.target) {
+    fill-opacity: 0.0;
+}
+
+#heatmap-tooltip {
+    --bs-tooltip-opacity: 1.0;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
 }
