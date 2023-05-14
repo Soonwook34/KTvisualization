@@ -57,7 +57,7 @@ class BoxPlot {
         });
         
         this._drawAxis(this.targetConcept);
-        this._drawWhisker(this.minMax, this.targetConcept);
+        this._drawWhisker(this.minMax);
         this._drawBox(this.quaterList, this.targetConcept);
     };
 
@@ -66,12 +66,41 @@ class BoxPlot {
         this.targetConcept = concept;
 
         this._drawAxis(this.targetConcept);
-        this._drawWhisker(this.minMax, this.targetConcept);
+        this._drawWhisker(this.minMax);
         this._drawBox(this.quaterList, this.targetConcept);
         this._drawTarget(this.data[this.targetUser]);
     };
 
-    _drawWhisker(minMax, targetConcept) {
+    _drawAxis(targetConcept) {
+        // Concept Axis 그리기
+        this.xAxis.selectAll("rect.axis")
+            .data(this.conceptList)
+            .join("rect")
+            .transition()
+            .attr("class", d => d === `C${targetConcept}` ? "axis target" : "axis")
+            .attr("x", d => this.xScale(d) + this.xScale.bandwidth() * 0.2)
+            .attr("y", 4)
+            .attr("width", this.xScale.bandwidth() * 0.6)
+            .attr("height", 24)
+            .attr("rx", "5")
+            .style("fill", this.conceptColorScale);
+        this.xAxis
+            .attr("transform", `translate(${this.margin.x}, ${this.margin.y + this.height})`)
+            .call(d3.axisBottom(this.xScale));
+        this.xAxis.selectAll("text")
+            .data(this.conceptList)
+            .join("text")
+            .attr("class", d => d === `C${targetConcept}` ? "fs-5 fw-bold" : "fs-5")
+            .style("fill", d => d === `C${targetConcept}` ? "white" : this.conceptColorScale(d));
+        // Answer Rate Axis 그리기
+        this.yAxis
+            .attr("transform", `translate(${this.margin.x}, ${this.margin.y})`)
+            .call(d3.axisLeft(this.yScale));
+        this.yAxis.selectAll("text")
+            .attr("class", "fs-6");
+    }
+
+    _drawWhisker(minMax) {
         // 메인 whisker 그리기
         this.container.selectAll("line.whisker")
             .data(minMax)
@@ -82,7 +111,7 @@ class BoxPlot {
             .attr("x2", d => this.xScale(this.conceptList[minMax.indexOf(d)]) + this.xScale.bandwidth() / 2)
             .attr("y2", d => this.yScale(d[1]))
             .style("stroke", d => this.conceptColorScale(this.conceptList[minMax.indexOf(d)]))
-            .style("stroke-width", "2");//d => minMax.indexOf(d) === targetConcept ? "5" : "2");
+            .style("stroke-width", "2");
             // TODO: 타겟은 굵게
         // whisker의 최소, 최대값 표시
         this.container.selectAll("line.min")
@@ -142,24 +171,6 @@ class BoxPlot {
             .style("stroke", d => this.conceptColorScale(this.conceptList[quaterList.indexOf(d)]))
             .style("stroke-width", "2");
     };
-
-    _drawAxis(targetConcept) {
-        // Concept Axis 그리기
-        this.xAxis
-            .attr("transform", `translate(${this.margin.x}, ${this.margin.y + this.height})`)
-            .call(d3.axisBottom(this.xScale));
-        this.xAxis.selectAll("text")
-            .data(this.conceptList)
-            .join("text")
-            .attr("class", d => d === `C${targetConcept}` ? "fs-5 fw-bold" : "fs-5")
-            .style("fill", this.conceptColorScale);
-        // Answer Rate Axis 그리기
-        this.yAxis
-            .attr("transform", `translate(${this.margin.x}, ${this.margin.y})`)
-            .call(d3.axisLeft(this.yScale));
-        this.yAxis.selectAll("text")
-            .attr("class", "fs-6");
-    }
 
     _drawTarget(target) {
         // target user 그리기
