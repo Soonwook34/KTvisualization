@@ -7,7 +7,8 @@ class RadarChart {
         this.svg = d3.select(svgId);
         this.width = this.svg.node().getBoundingClientRect().width;
         this.height = this.width * 0.95;
-        this.svg.attr("height", this.height);
+        this.svg.attr("height", this.height)
+            .attr("transform", `translate(0, ${this.width * 0.05 / 2})`);
 
         // 데이터
         this.data = data["user"];
@@ -27,6 +28,7 @@ class RadarChart {
         this.base = this.svg.append("g")
         this.container = this.svg.append("g");
         this.legend = this.svg.append("g");
+
         // Radar 반지름
         this.radialScale = d3.scaleLinear().domain([0, 1]).range([0, this.width * 0.43]);
         // Area 색상
@@ -107,16 +109,26 @@ class RadarChart {
 
     _drawAxis(targetConcept) {
         // Radar Axis Label 붙이기
+        this.base.selectAll("rect.axis")
+            .data(this.conceptList)
+            .join("rect")
+            .transition()
+            .attr("class", d => d === `C${targetConcept}` ? "axis target" : "axis")
+            .attr("x", d => this.getRadarCoord(this.conceptList.indexOf(d), 1.1)[0] - 15)
+            .attr("y", d => this.getRadarCoord(this.conceptList.indexOf(d), 1.1)[1] + 10 - 22)
+            .attr("width", "30")
+            .attr("height", "30")
+            .attr("rx", "5")
+            .style("fill", this.conceptColorScale);
         this.base.selectAll("text.axis")
             .data(this.conceptList)
             .join("text")
-            .transition()
             .attr("class", d => d === `C${targetConcept}` ? "axis fs-5 fw-bold" : "axis fs-5")
             .text(d => d)
             .attr("text-anchor", "middle")
             .attr("x", d => this.getRadarCoord(this.conceptList.indexOf(d), 1.1)[0])
             .attr("y", d => this.getRadarCoord(this.conceptList.indexOf(d), 1.1)[1] + 10)
-            .style("fill", this.conceptColorScale);
+            .style("fill", d => d === `C${targetConcept}` ? "white" : this.conceptColorScale(d));
     };
 
     _drawArea(drawData) {
