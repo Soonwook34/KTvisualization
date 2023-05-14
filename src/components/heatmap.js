@@ -1,5 +1,5 @@
 class Heatmap {
-    constructor(svgId, data) {
+    constructor(svgId, tooltipId, data) {
         this.marginContainer = {x: 40, y: 40};
         this.padding = 0.15
 
@@ -18,6 +18,11 @@ class Heatmap {
                      * (this.exerNum + (this.exerNum - 1) / this.exerNum * this.padding) + this.marginContainer.x;
         this.svg.attr("height", this.height);
         this.svg.attr("width", this.width);
+
+        // Tooltip
+        this.tooltip = d3.select(tooltipId);
+        this.tooltipInner = this.tooltip.select(".tooltip-inner");
+        this.tooltipArrow = this.tooltip.select(".tooltip-arrow");
 
         // 선택된 학생 ID, 문제 ID, 개념 ID, KT model
         this.targetUser = 0;
@@ -73,24 +78,47 @@ class Heatmap {
 
     _drawAxis() {
         //축 설정
+        this.xAxis.selectAll("rect.x-axis.target")
+            .data([0])
+            .join("rect")
+            .transition()
+            .attr("class", "x-axis target")
+            .attr("x", this.xScale(this.targetExer) + this.marginContainer.x)
+            .attr("y", this.height - this.yScale.bandwidth() * 0.8)
+            .attr("width", this.xScale.bandwidth())
+            .attr("height", this.yScale.bandwidth() * 0.8)
+            .attr("rx", "5");
         this.xAxis.selectAll("text.x-axis")
             .data(this.exerList)
             .join("text")
             .transition()
-            .attr("class", d => d === this.targetExer ? "x-axis fs-6 fw-bold" : "x-axis fs-6")
+            .attr("class", d => d === this.targetExer ? "x-axis fs-6 fw-bold target" : "x-axis fs-6")
             .attr("x", d => this.xScale(d) + this.xScale.bandwidth() + this.marginContainer.x / 2 + 5)
             .attr("y", this.height - 5)
             .text(d => d + 1)
             .attr("text-anchor", "middle");
+        
+        this.yAxis.selectAll("rect.y-axis")
+            .data(this.conceptList)
+            .join("rect")
+            .transition()
+            .attr("class", d => d === `C${this.targetConcept}` ? "y-axis fs-5 fw-bold target" : "y-axis fs-5")
+            .attr("x", -5)
+            .attr("y", d => this.yScale(d) + 8)
+            .attr("width", this.xScale.bandwidth())
+            .attr("height", this.yScale.bandwidth())
+            .attr("rx", "5")
+            .style("fill", this.conceptColorScale);
         this.yAxis.selectAll("text.y-axis")
             .data(this.conceptList)
             .join("text")
-            .transition()
+            // .transition()
             .attr("class", d => d === `C${this.targetConcept}` ? "y-axis fs-5 fw-bold" : "y-axis fs-5")
-            .attr("x", "0")
+            .attr("x", this.marginContainer.x / 2 - 10)
             .attr("y", d => this.yScale(d) + this.yScale.bandwidth())
             .text(d => d)
-            .style("fill", this.conceptColorScale);
+            .attr("text-anchor", "middle")
+            .style("fill", d => d === `C${this.targetConcept}` ? "white" : this.conceptColorScale(d));
     };
 
     _drawHeatmap(userData) {
@@ -155,8 +183,6 @@ class Heatmap {
             .text(d => d["skill"] === d["concept"] ? (d["correct"] === 1 ? "✔" : "✘") : "")
             .attr("text-anchor", "middle")
             .style("fill", "white");
-            // .style("stroke", d => this.conceptColorScale(d["concept"]))
-            // .style("stroke-width", "1");
     };
 
     _addButton(userData) {
