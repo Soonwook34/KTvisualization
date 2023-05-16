@@ -52,8 +52,8 @@ class BoxPlot {
         this.minMax = Array.from([...Array(this.conceptNum)], () => [...Array(2)].fill(0));
         this.quaterList.forEach((d, idx) => {
             let interRange = d[2] - d[0];
-            this.minMax[idx][0] = d[0] - 1.2 * interRange;
-            this.minMax[idx][1] = d[0] + 1.2 * interRange;
+            this.minMax[idx][0] = Math.max(0.0, d[0] - 1.2 * interRange);
+            this.minMax[idx][1] = Math.min(1.0, d[2] + 1.2 * interRange);
         });
         
         this._drawAxis(this.targetConcept);
