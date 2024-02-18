@@ -1,687 +1,751 @@
 {
     "nodes": [
         {
-            "id": "[0] be 동사의 현재형",
+            "id": "[6542] be 동사의 현재형",
+            "original_id": 6542,
             "group": 1
         },
         {
-            "id": "[1] be 동사의 부정문",
+            "id": "[6543] be 동사의 부정문",
+            "original_id": 6543,
             "group": 1
         },
         {
-            "id": "[2] be 동사의 의문문",
+            "id": "[6544] be 동사의 의문문",
+            "original_id": 6544,
             "group": 1
         },
         {
-            "id": "[3] 일반동사의 현재형",
+            "id": "[6545] 일반동사의 현재형",
+            "original_id": 6545,
             "group": 1
         },
         {
-            "id": "[4] 일반동사의 부정문",
+            "id": "[6546] 일반동사의 부정문",
+            "original_id": 6546,
             "group": 1
         },
         {
-            "id": "[5] 일반동사의 의문문",
+            "id": "[6547] 일반동사의 의문문",
+            "original_id": 6547,
             "group": 1
         },
         {
-            "id": "[6] be 동사의 과거형",
+            "id": "[6548] be 동사의 과거형",
+            "original_id": 6548,
             "group": 1
         },
         {
-            "id": "[7] 일반동사의 과거형 (규칙, 불규칙)",
+            "id": "[6549] 일반동사의 과거형 (규칙, 불규칙)",
+            "original_id": 6549,
             "group": 1
         },
         {
-            "id": "[8] 조동사 1 (can, may, must)",
+            "id": "[6550] 조동사 1 (can, may, must)",
+            "original_id": 6550,
             "group": 1
         },
         {
-            "id": "[9] 준조동사(have to, must, would like to, had better, would rather, used to)",
+            "id": "[6552] 준조동사(have to, must, would like to, had better, would rather, used to)",
+            "original_id": 6552,
             "group": 1
         },
         {
-            "id": "[10] 1형식 동사",
+            "id": "[6555] 1형식 동사",
+            "original_id": 6555,
             "group": 1
         },
         {
-            "id": "[11] 2형식 동사",
+            "id": "[6556] 2형식 동사",
+            "original_id": 6556,
             "group": 1
         },
         {
-            "id": "[12] 3형식 동사",
+            "id": "[6557] 3형식 동사",
+            "original_id": 6557,
             "group": 1
         },
         {
-            "id": "[13] 4형식 동사",
+            "id": "[6558] 4형식 동사",
+            "original_id": 6558,
             "group": 1
         },
         {
-            "id": "[14] 5형식 동사",
+            "id": "[6559] 5형식 동사",
+            "original_id": 6559,
             "group": 1
         },
         {
-            "id": "[15] to 부정사의 용법",
+            "id": "[6560] to 부정사의 용법",
+            "original_id": 6560,
             "group": 1
         },
         {
-            "id": "[16] to 부정사의 관용표현",
+            "id": "[6563] to 부정사의 관용표현",
+            "original_id": 6563,
             "group": 1
         },
         {
-            "id": "[17] 동명사의 용법",
+            "id": "[6564] 동명사의 용법",
+            "original_id": 6564,
             "group": 1
         },
         {
-            "id": "[18] 동명사의 부정, 시제와 태, 의미상 주어",
+            "id": "[6565] 동명사의 부정, 시제와 태, 의미상 주어",
+            "original_id": 6565,
             "group": 1
         },
         {
-            "id": "[19] 동명사의 관용표현",
+            "id": "[6566] 동명사의 관용표현",
+            "original_id": 6566,
             "group": 1
         },
         {
-            "id": "[20] 명령문",
-            "group": 1
+            "id": "[6567] 명령문",
+            "original_id": 6567,
+            "group": 2
         },
         {
-            "id": "[21] 감탄문",
-            "group": 1
+            "id": "[6568] 감탄문",
+            "original_id": 6568,
+            "group": 2
         },
         {
-            "id": "[22] 의문문",
-            "group": 1
+            "id": "[6569] 의문문",
+            "original_id": 6569,
+            "group": 2
         },
         {
-            "id": "[23] 미래시제(will, be going to)",
-            "group": 1
+            "id": "[6570] 미래시제(will, be going to)",
+            "original_id": 6570,
+            "group": 3
         },
         {
-            "id": "[24] 진행시제 (현재진행, 과거진행)",
-            "group": 1
+            "id": "[6571] 진행시제 (현재진행, 과거진행)",
+            "original_id": 6571,
+            "group": 3
         },
         {
-            "id": "[25] 현재완료",
-            "group": 1
+            "id": "[6572] 현재완료",
+            "original_id": 6572,
+            "group": 3
         },
         {
-            "id": "[26] 현재분사",
-            "group": 1
+            "id": "[6578] 현재분사",
+            "original_id": 6578,
+            "group": 5
         },
         {
-            "id": "[27] 과거분사",
-            "group": 1
+            "id": "[6579] 과거분사",
+            "original_id": 6579,
+            "group": 5
         },
         {
-            "id": "[28] 분사구문",
-            "group": 1
+            "id": "[6580] 분사구문",
+            "original_id": 6580,
+            "group": 5
         },
         {
-            "id": "[29] 복수형, 가산명사와 불가산명사",
-            "group": 1
+            "id": "[6587] 복수형, 가산명사와 불가산명사",
+            "original_id": 6587,
+            "group": 7
         },
         {
-            "id": "[30] 물질 명사",
-            "group": 1
+            "id": "[6588] 물질 명사",
+            "original_id": 6588,
+            "group": 7
         },
         {
-            "id": "[31] 인칭대명사 (주격, 목적격, 소유격)",
-            "group": 1
+            "id": "[6590] 인칭대명사 (주격, 목적격, 소유격)",
+            "original_id": 6590,
+            "group": 7
         },
         {
-            "id": "[32] 소유대명사",
-            "group": 1
+            "id": "[6591] 소유대명사",
+            "original_id": 6591,
+            "group": 7
         },
         {
-            "id": "[33] 재귀대명사",
-            "group": 1
+            "id": "[6592] 재귀대명사",
+            "original_id": 6592,
+            "group": 7
         },
         {
-            "id": "[34] 지시대명사(this/these, that/those)",
-            "group": 1
+            "id": "[6593] 지시대명사(this/these, that/those)",
+            "original_id": 6593,
+            "group": 7
         },
         {
-            "id": "[35] 비인칭 it",
-            "group": 1
+            "id": "[6594] 비인칭 it",
+            "original_id": 6594,
+            "group": 7
         },
         {
-            "id": "[36] 부정대명사 one/ones",
-            "group": 1
+            "id": "[6596] 부정대명사 one/ones",
+            "original_id": 6596,
+            "group": 7
         },
         {
-            "id": "[37] 부정대명사 the other/ another",
-            "group": 1
+            "id": "[6597] 부정대명사 the other/ another",
+            "original_id": 6597,
+            "group": 7
         },
         {
-            "id": "[38] 부정대명사 some, any, something",
-            "group": 1
+            "id": "[6598] 부정대명사 some, any, something",
+            "original_id": 6598,
+            "group": 7
         },
         {
-            "id": "[39] 부정대명사 each/all/most/none of 명사",
-            "group": 1
+            "id": "[6599] 부정대명사 each/all/most/none of 명사",
+            "original_id": 6599,
+            "group": 7
         },
         {
-            "id": "[40] 관계대명사 용법(주격, 목적격, 소유격, that)",
-            "group": 1
+            "id": "[6600] 관계대명사 용법(주격, 목적격, 소유격, that)",
+            "original_id": 6600,
+            "group": 7
         },
         {
-            "id": "[41] 형용사 (부정형용사 no, 고유형용사, 어순)",
-            "group": 1
+            "id": "[6607] 형용사 (부정형용사 no, 고유형용사, 어순)",
+            "original_id": 6607,
+            "group": 7
         },
         {
-            "id": "[42] 수량형용사 (many, much, a lot of)",
-            "group": 1
+            "id": "[6608] 수량형용사 (many, much, a lot of)",
+            "original_id": 6608,
+            "group": 7
         },
         {
-            "id": "[43] 부사의 형태",
-            "group": 1
+            "id": "[6611] 부사의 형태",
+            "original_id": 6611,
+            "group": 7
         },
         {
-            "id": "[44] 빈도부사",
-            "group": 1
+            "id": "[6612] 빈도부사",
+            "original_id": 6612,
+            "group": 7
         },
         {
-            "id": "[45] 주의해야할 부사",
-            "group": 1
+            "id": "[6614] 주의해야할 부사",
+            "original_id": 6614,
+            "group": 7
         },
         {
-            "id": "[46] 원급, 비교급, 최상급 형태",
-            "group": 1
+            "id": "[6616] 원급, 비교급, 최상급 형태",
+            "original_id": 6616,
+            "group": 7
         },
         {
-            "id": "[47] 등위접속사(and, but, or, so, nor, for)",
-            "group": 1
+            "id": "[6618] 등위접속사(and, but, or, so, nor, for)",
+            "original_id": 6618,
+            "group": 7
         },
         {
-            "id": "[48] 상관접속사",
-            "group": 1
+            "id": "[6619] 상관접속사",
+            "original_id": 6619,
+            "group": 7
         },
         {
-            "id": "[49] 시간 종속접속사 (when, while, before, after, as, until, whenever)",
-            "group": 1
+            "id": "[6620] 시간 종속접속사 (when, while, before, after, as, until, whenever)",
+            "original_id": 6620,
+            "group": 7
         },
         {
-            "id": "[50] 조건 종속접속사 (if, unless)",
-            "group": 1
+            "id": "[6621] 조건 종속접속사 (if, unless)",
+            "original_id": 6621,
+            "group": 7
         },
         {
-            "id": "[51] 이유 종속접속사 (because, since, as)",
-            "group": 1
+            "id": "[6622] 이유 종속접속사 (because, since, as)",
+            "original_id": 6622,
+            "group": 7
         },
         {
-            "id": "[52] 양보 종속접속사(although)",
-            "group": 1
+            "id": "[6623] 양보 종속접속사(although)",
+            "original_id": 6623,
+            "group": 7
         },
         {
-            "id": "[53] 결과 종속접속사 (so~that / such~that)",
-            "group": 1
+            "id": "[6624] 결과 종속접속사 (so~that / such~that)",
+            "original_id": 6624,
+            "group": 7
         },
         {
-            "id": "[54] 의문대명사 (what, who, which)",
-            "group": 1
+            "id": "[6628] 의문대명사 (what, who, which)",
+            "original_id": 6628,
+            "group": 7
         },
         {
-            "id": "[55] 의문형용사 (what, which, whose)",
-            "group": 1
+            "id": "[6629] 의문형용사 (what, which, whose)",
+            "original_id": 6629,
+            "group": 7
         },
         {
-            "id": "[56] 의문부사 (when, where, why, how)",
-            "group": 1
+            "id": "[6630] 의문부사 (when, where, why, how)",
+            "original_id": 6630,
+            "group": 7
         },
         {
-            "id": "[57] 장소, 위치의 전치사",
-            "group": 1
+            "id": "[6631] 장소, 위치의 전치사",
+            "original_id": 6631,
+            "group": 7
         },
         {
-            "id": "[58] 시간의 전치사",
-            "group": 1
+            "id": "[6632] 시간의 전치사",
+            "original_id": 6632,
+            "group": 7
         },
         {
-            "id": "[59] 기타 전치사",
-            "group": 1
+            "id": "[6634] 기타 전치사",
+            "original_id": 6634,
+            "group": 7
         },
         {
-            "id": "[60] 전치사와 접속사의 구분",
-            "group": 1
+            "id": "[6636] 전치사와 접속사의 구분",
+            "original_id": 6636,
+            "group": 7
         },
         {
-            "id": "[61] 부정관사/정관사",
-            "group": 1
+            "id": "[6642] 부정관사/정관사",
+            "original_id": 6642,
+            "group": 7
         },
         {
-            "id": "[62] 관사의 생략",
-            "group": 1
+            "id": "[6643] 관사의 생략",
+            "original_id": 6643,
+            "group": 7
         },
         {
-            "id": "[63] 청유문",
-            "group": 1
+            "id": "[7365] 청유문",
+            "original_id": 7365,
+            "group": 7
         }
     ],
     "links": [
         {
             "source": 0,
             "target": 2,
-            "value": 1
+            "value": 0.8444218515250481
         },
         {
             "source": 1,
             "target": 4,
-            "value": 1
+            "value": 0.7579544029403025
         },
         {
             "source": 2,
             "target": 1,
-            "value": 1
+            "value": 0.420571580830845
         },
         {
             "source": 2,
             "target": 31,
-            "value": 1
+            "value": 0.25891675029296335
         },
         {
             "source": 2,
             "target": 32,
-            "value": 1
+            "value": 0.5112747213686085
         },
         {
             "source": 3,
             "target": 0,
-            "value": 1
+            "value": 0.4049341374504143
         },
         {
             "source": 4,
             "target": 6,
-            "value": 1
+            "value": 0.7837985890347726
         },
         {
             "source": 4,
             "target": 7,
-            "value": 1
+            "value": 0.30331272607892745
         },
         {
             "source": 5,
             "target": 38,
-            "value": 1
+            "value": 0.4765969541523558
         },
         {
             "source": 6,
             "target": 7,
-            "value": 1
+            "value": 0.5833820394550312
         },
         {
             "source": 7,
             "target": 23,
-            "value": 1
+            "value": 0.9081128851953352
         },
         {
             "source": 8,
             "target": 5,
-            "value": 1
+            "value": 0.5046868558173903
         },
         {
             "source": 8,
             "target": 12,
-            "value": 1
+            "value": 0.28183784439970383
         },
         {
             "source": 9,
             "target": 33,
-            "value": 1
+            "value": 0.7558042041572239
         },
         {
             "source": 10,
             "target": 15,
-            "value": 1
+            "value": 0.6183689966753316
         },
         {
             "source": 10,
             "target": 41,
-            "value": 1
+            "value": 0.25050634136244054
         },
         {
             "source": 11,
             "target": 13,
-            "value": 1
+            "value": 0.9097462559682401
         },
         {
             "source": 12,
             "target": 11,
-            "value": 1
+            "value": 0.9827854760376531
         },
         {
             "source": 12,
             "target": 13,
-            "value": 1
+            "value": 0.8102172359965896
         },
         {
             "source": 13,
             "target": 10,
-            "value": 1
+            "value": 0.9021659504395827
         },
         {
             "source": 14,
             "target": 16,
-            "value": 1
+            "value": 0.3101475693193326
         },
         {
             "source": 14,
             "target": 17,
-            "value": 1
+            "value": 0.7298317482601286
         },
         {
             "source": 15,
             "target": 14,
-            "value": 1
+            "value": 0.8988382879679935
         },
         {
             "source": 16,
             "target": 17,
-            "value": 1
+            "value": 0.6839839319154413
         },
         {
             "source": 17,
             "target": 27,
-            "value": 1
+            "value": 0.47214271545271336
         },
         {
             "source": 17,
             "target": 33,
-            "value": 1
+            "value": 0.1007012080683658
         },
         {
             "source": 17,
             "target": 37,
-            "value": 1
+            "value": 0.4341718354537837
         },
         {
             "source": 18,
             "target": 37,
-            "value": 1
+            "value": 0.6108869734438016
         },
         {
             "source": 19,
             "target": 42,
-            "value": 1
+            "value": 0.9130110532378982
         },
         {
             "source": 19,
             "target": 58,
-            "value": 1
+            "value": 0.9666063677707588
         },
         {
             "source": 20,
             "target": 55,
-            "value": 1
+            "value": 0.47700977655271704
         },
         {
             "source": 21,
             "target": 20,
-            "value": 1
+            "value": 0.8653099277716401
         },
         {
             "source": 22,
             "target": 56,
-            "value": 1
+            "value": 0.2604923103919594
         },
         {
             "source": 23,
             "target": 24,
-            "value": 1
+            "value": 0.8050278270130223
         },
         {
             "source": 24,
             "target": 21,
-            "value": 1
+            "value": 0.5486993038355893
         },
         {
             "source": 25,
             "target": 28,
-            "value": 1
+            "value": 0.014041700164018955
         },
         {
             "source": 26,
             "target": 25,
-            "value": 1
+            "value": 0.7197046864039541
         },
         {
             "source": 27,
             "target": 26,
-            "value": 1
+            "value": 0.39882354222426875
         },
         {
             "source": 28,
             "target": 18,
-            "value": 1
+            "value": 0.824844977148233
         },
         {
             "source": 29,
             "target": 61,
-            "value": 1
+            "value": 0.6681532012318508
         },
         {
             "source": 30,
             "target": 62,
-            "value": 1
+            "value": 0.0011428193144282783
         },
         {
             "source": 31,
             "target": 1,
-            "value": 1
+            "value": 0.49357786646532464
         },
         {
             "source": 32,
             "target": 31,
-            "value": 1
+            "value": 0.8676027754927809
         },
         {
             "source": 33,
             "target": 39,
-            "value": 1
+            "value": 0.24391087688713198
         },
         {
             "source": 34,
             "target": 3,
-            "value": 1
+            "value": 0.32520436274739006
         },
         {
             "source": 35,
             "target": 19,
-            "value": 1
+            "value": 0.8704712321086546
         },
         {
             "source": 36,
             "target": 5,
-            "value": 1
+            "value": 0.19106709150239054
         },
         {
             "source": 36,
             "target": 38,
-            "value": 1
+            "value": 0.5675107406206719
         },
         {
             "source": 36,
             "target": 49,
-            "value": 1
+            "value": 0.23861592861522019
         },
         {
             "source": 36,
             "target": 51,
-            "value": 1
+            "value": 0.9675402502901433
         },
         {
             "source": 37,
             "target": 9,
-            "value": 1
+            "value": 0.80317946927987
         },
         {
             "source": 37,
             "target": 33,
-            "value": 1
+            "value": 0.44796957143557037
         },
         {
             "source": 38,
             "target": 35,
-            "value": 1
+            "value": 0.08044581855253541
         },
         {
             "source": 39,
             "target": 36,
-            "value": 1
+            "value": 0.32005460467254576
         },
         {
             "source": 40,
             "target": 50,
-            "value": 1
+            "value": 0.5079406425205739
         },
         {
             "source": 41,
             "target": 15,
-            "value": 1
+            "value": 0.9328338242269067
         },
         {
             "source": 41,
             "target": 60,
-            "value": 1
+            "value": 0.10905784593110368
         },
         {
             "source": 42,
             "target": 43,
-            "value": 1
+            "value": 0.5512672460905512
         },
         {
             "source": 43,
             "target": 44,
-            "value": 1
+            "value": 0.7065614098668896
         },
         {
             "source": 44,
             "target": 45,
-            "value": 1
+            "value": 0.5474409113284238
         },
         {
             "source": 46,
             "target": 8,
-            "value": 1
+            "value": 0.814466863291336
         },
         {
             "source": 46,
             "target": 29,
-            "value": 1
+            "value": 0.540283606970324
         },
         {
             "source": 46,
             "target": 57,
-            "value": 1
+            "value": 0.9638385459738009
         },
         {
             "source": 46,
             "target": 61,
-            "value": 1
+            "value": 0.603185627961383
         },
         {
             "source": 47,
             "target": 59,
-            "value": 1
+            "value": 0.5876170641754364
         },
         {
             "source": 48,
             "target": 53,
-            "value": 1
+            "value": 0.4449890262755162
         },
         {
             "source": 49,
             "target": 51,
-            "value": 1
+            "value": 0.5962868615831063
         },
         {
             "source": 50,
             "target": 48,
-            "value": 1
+            "value": 0.38490114597266045
         },
         {
             "source": 51,
             "target": 5,
-            "value": 1
+            "value": 0.5756510141648885
         },
         {
             "source": 51,
             "target": 38,
-            "value": 1
+            "value": 0.290329502402758
         },
         {
             "source": 51,
             "target": 52,
-            "value": 1
+            "value": 0.18939132855435614
         },
         {
             "source": 52,
             "target": 40,
-            "value": 1
+            "value": 0.1867295282555551
         },
         {
             "source": 54,
             "target": 22,
-            "value": 1
+            "value": 0.6127731798686067
         },
         {
             "source": 55,
             "target": 54,
-            "value": 1
+            "value": 0.6566593889896288
         },
         {
             "source": 56,
             "target": 63,
-            "value": 1
+            "value": 0.47653099200938076
         },
         {
             "source": 57,
             "target": 15,
-            "value": 1
+            "value": 0.08982436119559367
         },
         {
             "source": 57,
             "target": 31,
-            "value": 1
+            "value": 0.7576039219664368
         },
         {
             "source": 57,
             "target": 34,
-            "value": 1
+            "value": 0.8767703708227748
         },
         {
             "source": 57,
             "target": 51,
-            "value": 1
+            "value": 0.9233810159462806
         },
         {
             "source": 58,
             "target": 47,
-            "value": 1
+            "value": 0.8424602231401824
         },
         {
             "source": 60,
             "target": 15,
-            "value": 1
+            "value": 0.898173121357879
         },
         {
             "source": 61,
             "target": 30,
-            "value": 1
+            "value": 0.9230824398201768
         },
         {
             "source": 61,
             "target": 62,
-            "value": 1
+            "value": 0.5405999249480544
         },
         {
             "source": 62,
             "target": 34,
-            "value": 1
+            "value": 0.3912960502346249
         },
         {
             "source": 63,
             "target": 8,
-            "value": 1
+            "value": 0.7052833998544062
         }
     ]
 }
