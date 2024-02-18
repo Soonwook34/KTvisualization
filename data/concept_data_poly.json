@@ -1,0 +1,687 @@
+{
+    "nodes": [
+        {
+            "id": "[0] be 동사의 현재형",
+            "group": 1
+        },
+        {
+            "id": "[1] be 동사의 부정문",
+            "group": 1
+        },
+        {
+            "id": "[2] be 동사의 의문문",
+            "group": 1
+        },
+        {
+            "id": "[3] 일반동사의 현재형",
+            "group": 1
+        },
+        {
+            "id": "[4] 일반동사의 부정문",
+            "group": 1
+        },
+        {
+            "id": "[5] 일반동사의 의문문",
+            "group": 1
+        },
+        {
+            "id": "[6] be 동사의 과거형",
+            "group": 1
+        },
+        {
+            "id": "[7] 일반동사의 과거형 (규칙, 불규칙)",
+            "group": 1
+        },
+        {
+            "id": "[8] 조동사 1 (can, may, must)",
+            "group": 1
+        },
+        {
+            "id": "[9] 준조동사(have to, must, would like to, had better, would rather, used to)",
+            "group": 1
+        },
+        {
+            "id": "[10] 1형식 동사",
+            "group": 1
+        },
+        {
+            "id": "[11] 2형식 동사",
+            "group": 1
+        },
+        {
+            "id": "[12] 3형식 동사",
+            "group": 1
+        },
+        {
+            "id": "[13] 4형식 동사",
+            "group": 1
+        },
+        {
+            "id": "[14] 5형식 동사",
+            "group": 1
+        },
+        {
+            "id": "[15] to 부정사의 용법",
+            "group": 1
+        },
+        {
+            "id": "[16] to 부정사의 관용표현",
+            "group": 1
+        },
+        {
+            "id": "[17] 동명사의 용법",
+            "group": 1
+        },
+        {
+            "id": "[18] 동명사의 부정, 시제와 태, 의미상 주어",
+            "group": 1
+        },
+        {
+            "id": "[19] 동명사의 관용표현",
+            "group": 1
+        },
+        {
+            "id": "[20] 명령문",
+            "group": 1
+        },
+        {
+            "id": "[21] 감탄문",
+            "group": 1
+        },
+        {
+            "id": "[22] 의문문",
+            "group": 1
+        },
+        {
+            "id": "[23] 미래시제(will, be going to)",
+            "group": 1
+        },
+        {
+            "id": "[24] 진행시제 (현재진행, 과거진행)",
+            "group": 1
+        },
+        {
+            "id": "[25] 현재완료",
+            "group": 1
+        },
+        {
+            "id": "[26] 현재분사",
+            "group": 1
+        },
+        {
+            "id": "[27] 과거분사",
+            "group": 1
+        },
+        {
+            "id": "[28] 분사구문",
+            "group": 1
+        },
+        {
+            "id": "[29] 복수형, 가산명사와 불가산명사",
+            "group": 1
+        },
+        {
+            "id": "[30] 물질 명사",
+            "group": 1
+        },
+        {
+            "id": "[31] 인칭대명사 (주격, 목적격, 소유격)",
+            "group": 1
+        },
+        {
+            "id": "[32] 소유대명사",
+            "group": 1
+        },
+        {
+            "id": "[33] 재귀대명사",
+            "group": 1
+        },
+        {
+            "id": "[34] 지시대명사(this/these, that/those)",
+            "group": 1
+        },
+        {
+            "id": "[35] 비인칭 it",
+            "group": 1
+        },
+        {
+            "id": "[36] 부정대명사 one/ones",
+            "group": 1
+        },
+        {
+            "id": "[37] 부정대명사 the other/ another",
+            "group": 1
+        },
+        {
+            "id": "[38] 부정대명사 some, any, something",
+            "group": 1
+        },
+        {
+            "id": "[39] 부정대명사 each/all/most/none of 명사",
+            "group": 1
+        },
+        {
+            "id": "[40] 관계대명사 용법(주격, 목적격, 소유격, that)",
+            "group": 1
+        },
+        {
+            "id": "[41] 형용사 (부정형용사 no, 고유형용사, 어순)",
+            "group": 1
+        },
+        {
+            "id": "[42] 수량형용사 (many, much, a lot of)",
+            "group": 1
+        },
+        {
+            "id": "[43] 부사의 형태",
+            "group": 1
+        },
+        {
+            "id": "[44] 빈도부사",
+            "group": 1
+        },
+        {
+            "id": "[45] 주의해야할 부사",
+            "group": 1
+        },
+        {
+            "id": "[46] 원급, 비교급, 최상급 형태",
+            "group": 1
+        },
+        {
+            "id": "[47] 등위접속사(and, but, or, so, nor, for)",
+            "group": 1
+        },
+        {
+            "id": "[48] 상관접속사",
+            "group": 1
+        },
+        {
+            "id": "[49] 시간 종속접속사 (when, while, before, after, as, until, whenever)",
+            "group": 1
+        },
+        {
+            "id": "[50] 조건 종속접속사 (if, unless)",
+            "group": 1
+        },
+        {
+            "id": "[51] 이유 종속접속사 (because, since, as)",
+            "group": 1
+        },
+        {
+            "id": "[52] 양보 종속접속사(although)",
+            "group": 1
+        },
+        {
+            "id": "[53] 결과 종속접속사 (so~that / such~that)",
+            "group": 1
+        },
+        {
+            "id": "[54] 의문대명사 (what, who, which)",
+            "group": 1
+        },
+        {
+            "id": "[55] 의문형용사 (what, which, whose)",
+            "group": 1
+        },
+        {
+            "id": "[56] 의문부사 (when, where, why, how)",
+            "group": 1
+        },
+        {
+            "id": "[57] 장소, 위치의 전치사",
+            "group": 1
+        },
+        {
+            "id": "[58] 시간의 전치사",
+            "group": 1
+        },
+        {
+            "id": "[59] 기타 전치사",
+            "group": 1
+        },
+        {
+            "id": "[60] 전치사와 접속사의 구분",
+            "group": 1
+        },
+        {
+            "id": "[61] 부정관사/정관사",
+            "group": 1
+        },
+        {
+            "id": "[62] 관사의 생략",
+            "group": 1
+        },
+        {
+            "id": "[63] 청유문",
+            "group": 1
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 2,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 1,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 31,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 32,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "value": 1
+        },
+        {
+            "source": 4,
+            "target": 6,
+            "value": 1
+        },
+        {
+            "source": 4,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 5,
+            "target": 38,
+            "value": 1
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 7,
+            "target": 23,
+            "value": 1
+        },
+        {
+            "source": 8,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 8,
+            "target": 12,
+            "value": 1
+        },
+        {
+            "source": 9,
+            "target": 33,
+            "value": 1
+        },
+        {
+            "source": 10,
+            "target": 15,
+            "value": 1
+        },
+        {
+            "source": 10,
+            "target": 41,
+            "value": 1
+        },
+        {
+            "source": 11,
+            "target": 13,
+            "value": 1
+        },
+        {
+            "source": 12,
+            "target": 11,
+            "value": 1
+        },
+        {
+            "source": 12,
+            "target": 13,
+            "value": 1
+        },
+        {
+            "source": 13,
+            "target": 10,
+            "value": 1
+        },
+        {
+            "source": 14,
+            "target": 16,
+            "value": 1
+        },
+        {
+            "source": 14,
+            "target": 17,
+            "value": 1
+        },
+        {
+            "source": 15,
+            "target": 14,
+            "value": 1
+        },
+        {
+            "source": 16,
+            "target": 17,
+            "value": 1
+        },
+        {
+            "source": 17,
+            "target": 27,
+            "value": 1
+        },
+        {
+            "source": 17,
+            "target": 33,
+            "value": 1
+        },
+        {
+            "source": 17,
+            "target": 37,
+            "value": 1
+        },
+        {
+            "source": 18,
+            "target": 37,
+            "value": 1
+        },
+        {
+            "source": 19,
+            "target": 42,
+            "value": 1
+        },
+        {
+            "source": 19,
+            "target": 58,
+            "value": 1
+        },
+        {
+            "source": 20,
+            "target": 55,
+            "value": 1
+        },
+        {
+            "source": 21,
+            "target": 20,
+            "value": 1
+        },
+        {
+            "source": 22,
+            "target": 56,
+            "value": 1
+        },
+        {
+            "source": 23,
+            "target": 24,
+            "value": 1
+        },
+        {
+            "source": 24,
+            "target": 21,
+            "value": 1
+        },
+        {
+            "source": 25,
+            "target": 28,
+            "value": 1
+        },
+        {
+            "source": 26,
+            "target": 25,
+            "value": 1
+        },
+        {
+            "source": 27,
+            "target": 26,
+            "value": 1
+        },
+        {
+            "source": 28,
+            "target": 18,
+            "value": 1
+        },
+        {
+            "source": 29,
+            "target": 61,
+            "value": 1
+        },
+        {
+            "source": 30,
+            "target": 62,
+            "value": 1
+        },
+        {
+            "source": 31,
+            "target": 1,
+            "value": 1
+        },
+        {
+            "source": 32,
+            "target": 31,
+            "value": 1
+        },
+        {
+            "source": 33,
+            "target": 39,
+            "value": 1
+        },
+        {
+            "source": 34,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 35,
+            "target": 19,
+            "value": 1
+        },
+        {
+            "source": 36,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 36,
+            "target": 38,
+            "value": 1
+        },
+        {
+            "source": 36,
+            "target": 49,
+            "value": 1
+        },
+        {
+            "source": 36,
+            "target": 51,
+            "value": 1
+        },
+        {
+            "source": 37,
+            "target": 9,
+            "value": 1
+        },
+        {
+            "source": 37,
+            "target": 33,
+            "value": 1
+        },
+        {
+            "source": 38,
+            "target": 35,
+            "value": 1
+        },
+        {
+            "source": 39,
+            "target": 36,
+            "value": 1
+        },
+        {
+            "source": 40,
+            "target": 50,
+            "value": 1
+        },
+        {
+            "source": 41,
+            "target": 15,
+            "value": 1
+        },
+        {
+            "source": 41,
+            "target": 60,
+            "value": 1
+        },
+        {
+            "source": 42,
+            "target": 43,
+            "value": 1
+        },
+        {
+            "source": 43,
+            "target": 44,
+            "value": 1
+        },
+        {
+            "source": 44,
+            "target": 45,
+            "value": 1
+        },
+        {
+            "source": 46,
+            "target": 8,
+            "value": 1
+        },
+        {
+            "source": 46,
+            "target": 29,
+            "value": 1
+        },
+        {
+            "source": 46,
+            "target": 57,
+            "value": 1
+        },
+        {
+            "source": 46,
+            "target": 61,
+            "value": 1
+        },
+        {
+            "source": 47,
+            "target": 59,
+            "value": 1
+        },
+        {
+            "source": 48,
+            "target": 53,
+            "value": 1
+        },
+        {
+            "source": 49,
+            "target": 51,
+            "value": 1
+        },
+        {
+            "source": 50,
+            "target": 48,
+            "value": 1
+        },
+        {
+            "source": 51,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 51,
+            "target": 38,
+            "value": 1
+        },
+        {
+            "source": 51,
+            "target": 52,
+            "value": 1
+        },
+        {
+            "source": 52,
+            "target": 40,
+            "value": 1
+        },
+        {
+            "source": 54,
+            "target": 22,
+            "value": 1
+        },
+        {
+            "source": 55,
+            "target": 54,
+            "value": 1
+        },
+        {
+            "source": 56,
+            "target": 63,
+            "value": 1
+        },
+        {
+            "source": 57,
+            "target": 15,
+            "value": 1
+        },
+        {
+            "source": 57,
+            "target": 31,
+            "value": 1
+        },
+        {
+            "source": 57,
+            "target": 34,
+            "value": 1
+        },
+        {
+            "source": 57,
+            "target": 51,
+            "value": 1
+        },
+        {
+            "source": 58,
+            "target": 47,
+            "value": 1
+        },
+        {
+            "source": 60,
+            "target": 15,
+            "value": 1
+        },
+        {
+            "source": 61,
+            "target": 30,
+            "value": 1
+        },
+        {
+            "source": 61,
+            "target": 62,
+            "value": 1
+        },
+        {
+            "source": 62,
+            "target": 34,
+            "value": 1
+        },
+        {
+            "source": 63,
+            "target": 8,
+            "value": 1
+        }
+    ]
+}
