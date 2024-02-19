@@ -1,467 +1,467 @@
 {
     "nodes": [
         {
-            "id": "[4] Set",
+            "id": "[0] Set",
             "original_id": 4,
             "group": 1
         },
         {
-            "id": "[6] Cartesian product",
+            "id": "[1] Cartesian product",
             "original_id": 6,
             "group": 1
         },
         {
-            "id": "[7] Cardinality",
+            "id": "[2] Cardinality",
             "original_id": 7,
             "group": 1
         },
         {
-            "id": "[8] Equality",
+            "id": "[3] Equality",
             "original_id": 8,
             "group": 1
         },
         {
-            "id": "[9] union",
+            "id": "[4] union",
             "original_id": 9,
             "group": 1
         },
         {
-            "id": "[10] Intersection",
+            "id": "[5] Intersection",
             "original_id": 10,
             "group": 1
         },
         {
-            "id": "[11] Difference",
+            "id": "[6] Difference",
             "original_id": 11,
             "group": 1
         },
         {
-            "id": "[12] Subset",
+            "id": "[7] Subset",
             "original_id": 12,
             "group": 1
         },
         {
-            "id": "[13] Tuple",
+            "id": "[8] Tuple",
             "original_id": 13,
             "group": 1
         },
         {
-            "id": "[14] Relational data model",
+            "id": "[9] Relational data model",
             "original_id": 14,
             "group": 1
         },
         {
-            "id": "[15] Domain",
+            "id": "[10] Domain",
             "original_id": 15,
             "group": 1
         },
         {
-            "id": "[16] Attribute",
+            "id": "[11] Attribute",
             "original_id": 16,
             "group": 1
         },
         {
-            "id": "[17] Relation",
+            "id": "[12] Relation",
             "original_id": 17,
             "group": 1
         },
         {
-            "id": "[18] Superkey",
+            "id": "[13] Superkey",
             "original_id": 18,
             "group": 1
         },
         {
-            "id": "[19] Foreign key",
+            "id": "[14] Foreign key",
             "original_id": 19,
             "group": 1
         },
         {
-            "id": "[20] Schema",
+            "id": "[15] Schema",
             "original_id": 20,
             "group": 1
         },
         {
-            "id": "[22] DDL",
+            "id": "[16] DDL",
             "original_id": 22,
             "group": 1
         },
         {
-            "id": "[23] Data type",
+            "id": "[17] Data type",
             "original_id": 23,
             "group": 1
         },
         {
-            "id": "[24] CREATE TABLE",
+            "id": "[18] CREATE TABLE",
             "original_id": 24,
             "group": 1
         },
         {
-            "id": "[25] DROP TABLE",
+            "id": "[19] DROP TABLE",
             "original_id": 25,
             "group": 1
         },
         {
-            "id": "[26] ALTER TABLE",
+            "id": "[20] ALTER TABLE",
             "original_id": 26,
             "group": 1
         },
         {
-            "id": "[27] Candidate key",
+            "id": "[21] Candidate key",
             "original_id": 27,
             "group": 1
         },
         {
-            "id": "[28] DML",
+            "id": "[22] DML",
             "original_id": 28,
             "group": 1
         },
         {
-            "id": "[29] SELECT",
+            "id": "[23] SELECT",
             "original_id": 29,
             "group": 1
         },
         {
-            "id": "[30] INSERT",
+            "id": "[24] INSERT",
             "original_id": 30,
             "group": 1
         },
         {
-            "id": "[31] DELETE",
+            "id": "[25] DELETE",
             "original_id": 31,
             "group": 1
         },
         {
-            "id": "[32] Query",
+            "id": "[26] Query",
             "original_id": 32,
             "group": 1
         },
         {
-            "id": "[33] Join",
+            "id": "[27] Join",
             "original_id": 33,
             "group": 1
         },
         {
-            "id": "[34] Primary Key",
+            "id": "[28] Primary Key",
             "original_id": 34,
             "group": 1
         },
         {
-            "id": "[35] SELECT DISTINCT",
+            "id": "[29] SELECT DISTINCT",
             "original_id": 35,
             "group": 1
         },
         {
-            "id": "[36] GROUP BY",
+            "id": "[30] GROUP BY",
             "original_id": 36,
             "group": 1
         },
         {
-            "id": "[37] COUNT",
+            "id": "[31] COUNT",
             "original_id": 37,
             "group": 1
         },
         {
-            "id": "[38] MIN",
+            "id": "[32] MIN",
             "original_id": 38,
             "group": 1
         },
         {
-            "id": "[39] HAVING",
+            "id": "[33] HAVING",
             "original_id": 39,
             "group": 1
         },
         {
-            "id": "[40] EXCEPT",
+            "id": "[34] EXCEPT",
             "original_id": 40,
             "group": 1
         },
         {
-            "id": "[41] Inner Join",
+            "id": "[35] Inner Join",
             "original_id": 41,
             "group": 1
         },
         {
-            "id": "[42] Natural Join",
+            "id": "[36] Natural Join",
             "original_id": 42,
             "group": 1
         },
         {
-            "id": "[43] Left Join",
+            "id": "[37] Left Join",
             "original_id": 43,
             "group": 1
         },
         {
-            "id": "[44] EXISTS",
+            "id": "[38] EXISTS",
             "original_id": 44,
             "group": 1
         },
         {
-            "id": "[45] Entity-Relationship Model",
+            "id": "[39] Entity-Relationship Model",
             "original_id": 45,
             "group": 1
         },
         {
-            "id": "[46] Data structure",
+            "id": "[40] Data structure",
             "original_id": 46,
             "group": 1
         },
         {
-            "id": "[48] Entity",
+            "id": "[41] Entity",
             "original_id": 48,
             "group": 1
         },
         {
-            "id": "[49] Total",
+            "id": "[42] Total",
             "original_id": 49,
             "group": 1
         },
         {
-            "id": "[50] Data integrity",
+            "id": "[43] Data integrity",
             "original_id": 50,
             "group": 1
         },
         {
-            "id": "[51] weak entity",
+            "id": "[44] weak entity",
             "original_id": 51,
             "group": 1
         },
         {
-            "id": "[52] Key attributes",
+            "id": "[45] Key attributes",
             "original_id": 52,
             "group": 1
         },
         {
-            "id": "[54] Subclass",
+            "id": "[46] Subclass",
             "original_id": 54,
             "group": 1
         },
         {
-            "id": "[55] Superclass",
+            "id": "[47] Superclass",
             "original_id": 55,
             "group": 1
         },
         {
-            "id": "[57] Cardinality ratios",
+            "id": "[48] Cardinality ratios",
             "original_id": 57,
             "group": 1
         },
         {
-            "id": "[58] Participation constraints",
+            "id": "[49] Participation constraints",
             "original_id": 58,
             "group": 1
         },
         {
-            "id": "[59] Many-To-Many",
+            "id": "[50] Many-To-Many",
             "original_id": 59,
             "group": 1
         },
         {
-            "id": "[60] One-To-Many",
+            "id": "[51] One-To-Many",
             "original_id": 60,
             "group": 1
         },
         {
-            "id": "[63] partial",
+            "id": "[52] partial",
             "original_id": 63,
             "group": 1
         },
         {
-            "id": "[64] Functional dependencies",
+            "id": "[53] Functional dependencies",
             "original_id": 64,
             "group": 1
         },
         {
-            "id": "[65] Trivial",
+            "id": "[54] Trivial",
             "original_id": 65,
             "group": 1
         },
         {
-            "id": "[66] Closure",
+            "id": "[55] Closure",
             "original_id": 66,
             "group": 1
         },
         {
-            "id": "[67] Implied",
+            "id": "[56] Implied",
             "original_id": 67,
             "group": 1
         },
         {
-            "id": "[68] Equivalent",
+            "id": "[57] Equivalent",
             "original_id": 68,
             "group": 1
         },
         {
-            "id": "[69] Minimal Cover",
+            "id": "[58] Minimal Cover",
             "original_id": 69,
             "group": 1
         },
         {
-            "id": "[70] Prime Attribute",
+            "id": "[59] Prime Attribute",
             "original_id": 70,
             "group": 1
         },
         {
-            "id": "[71] Normalisation",
+            "id": "[60] Normalisation",
             "original_id": 71,
             "group": 1
         },
         {
-            "id": "[72] Lossless Join",
+            "id": "[61] Lossless Join",
             "original_id": 72,
             "group": 1
         },
         {
-            "id": "[73] Dependency preservation",
+            "id": "[62] Dependency preservation",
             "original_id": 73,
             "group": 1
         },
         {
-            "id": "[74] Boyce-Codd normal form (BCNF)",
+            "id": "[63] Boyce-Codd normal form (BCNF)",
             "original_id": 74,
             "group": 1
         },
         {
-            "id": "[75] Third normal form (3NF)",
+            "id": "[64] Third normal form (3NF)",
             "original_id": 75,
             "group": 1
         },
         {
-            "id": "[76] Relational Algebra",
+            "id": "[65] Relational Algebra",
             "original_id": 76,
             "group": 1
         },
         {
-            "id": "[77] Projection",
+            "id": "[66] Projection",
             "original_id": 77,
             "group": 1
         },
         {
-            "id": "[78] Selection",
+            "id": "[67] Selection",
             "original_id": 78,
             "group": 1
         },
         {
-            "id": "[79] Renaming",
+            "id": "[68] Renaming",
             "original_id": 79,
             "group": 1
         },
         {
-            "id": "[80] Database Security",
+            "id": "[69] Database Security",
             "original_id": 80,
             "group": 1
         },
         {
-            "id": "[81] Access Control",
+            "id": "[70] Access Control",
             "original_id": 81,
             "group": 1
         },
         {
-            "id": "[82] Discretionary access control (DAC)",
+            "id": "[71] Discretionary access control (DAC)",
             "original_id": 82,
             "group": 1
         },
         {
-            "id": "[83] GRANT",
+            "id": "[72] GRANT",
             "original_id": 83,
             "group": 1
         },
         {
-            "id": "[84] Mandatory Access Control (MAC)",
+            "id": "[73] Mandatory Access Control (MAC)",
             "original_id": 84,
             "group": 1
         },
         {
-            "id": "[85] SQL Injection",
+            "id": "[74] SQL Injection",
             "original_id": 85,
             "group": 1
         },
         {
-            "id": "[86] REVOKE",
+            "id": "[75] REVOKE",
             "original_id": 86,
             "group": 1
         },
         {
-            "id": "[87] Specifying Privileges - Views",
+            "id": "[76] Specifying Privileges - Views",
             "original_id": 87,
             "group": 1
         },
         {
-            "id": "[88] Role-Based Access Control (RBAC)",
+            "id": "[77] Role-Based Access Control (RBAC)",
             "original_id": 88,
             "group": 1
         },
         {
-            "id": "[89] Authentication",
+            "id": "[78] Authentication",
             "original_id": 89,
             "group": 1
         },
         {
-            "id": "[90] Trojan Horse attacks",
+            "id": "[79] Trojan Horse attacks",
             "original_id": 90,
             "group": 1
         },
         {
-            "id": "[91] Transactions",
+            "id": "[80] Transactions",
             "original_id": 91,
             "group": 1
         },
         {
-            "id": "[92] ACID Properties",
+            "id": "[81] ACID Properties",
             "original_id": 92,
             "group": 1
         },
         {
-            "id": "[93] Isolation",
+            "id": "[82] Isolation",
             "original_id": 93,
             "group": 1
         },
         {
-            "id": "[94] Locking",
+            "id": "[83] Locking",
             "original_id": 94,
             "group": 1
         },
         {
-            "id": "[95] Concurrent Transactions",
+            "id": "[84] Concurrent Transactions",
             "original_id": 95,
             "group": 1
         },
         {
-            "id": "[96] Two-Phase Locking (2PL) Protocol",
+            "id": "[85] Two-Phase Locking (2PL) Protocol",
             "original_id": 96,
             "group": 1
         },
         {
-            "id": "[97] Logging",
+            "id": "[86] Logging",
             "original_id": 97,
             "group": 1
         },
         {
-            "id": "[98] The Dirty Read Problem",
+            "id": "[87] The Dirty Read Problem",
             "original_id": 98,
             "group": 1
         },
         {
-            "id": "[99] The Unrepeatable Read Problem",
+            "id": "[88] The Unrepeatable Read Problem",
             "original_id": 99,
             "group": 1
         },
         {
-            "id": "[100] The Lost Update Problem",
+            "id": "[89] The Lost Update Problem",
             "original_id": 100,
             "group": 1
         },
         {
-            "id": "[101] Read Uncommitted",
+            "id": "[90] Read Uncommitted",
             "original_id": 101,
             "group": 1
         },
         {
-            "id": "[102] Read Committed",
+            "id": "[91] Read Committed",
             "original_id": 102,
             "group": 1
         },
         {
-            "id": "[103] Serializable",
+            "id": "[92] Serializable",
             "original_id": 103,
             "group": 1
         }
