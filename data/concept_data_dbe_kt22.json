@@ -464,31 +464,6 @@
             "id": "[103] Serializable",
             "original_id": 103,
             "group": 1
-        },
-        {
-            "id": "[56] Data Model",
-            "original_id": 56,
-            "group": 1
-        },
-        {
-            "id": "[47] Relationship",
-            "original_id": 47,
-            "group": 1
-        },
-        {
-            "id": "[61] One-To-One",
-            "original_id": 61,
-            "group": 1
-        },
-        {
-            "id": "[53] Enhanced Entity-Relationship",
-            "original_id": 53,
-            "group": 1
-        },
-        {
-            "id": "[21] SQL",
-            "original_id": 21,
-            "group": 1
         }
     ],
     "links": [
